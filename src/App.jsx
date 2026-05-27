@@ -1,3 +1,6 @@
+import React, { useState, useEffect, useRef } from 'react';
+
+
 const ROOMS = ['Living Room', 'Kitchen', 'Bedroom', 'Bathroom', 'Garage', 'Basement', 'ADU', 'Other'];
 const GLA_EXCLUDED = ['Garage', 'Basement', 'ADU'];
 const COLORS = {
@@ -677,3 +680,4 @@ function App() {
     </div>
   );
 }
+export default App;
